@@ -1,0 +1,45 @@
+.header_logo {
+    /* desktop top */
+
+position: absolute;
+width: 1109.89px;
+height: 60px;
+left: 50px;
+top: 0px;
+
+
+}
+.header_logo p {
+/* QPICK */
+
+width: 85px;
+height: 30px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 25px;
+line-height: 30px;
+
+color: #101010;
+
+text-transform: uppercase;
+float: left;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+
+.header_cart {
+    /* Корзина */
+
+position: absolute;
+left: 89.51%;
+right: -0.27%;
+top: 0%;
+bottom: 0%;
+
+}

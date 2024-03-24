@@ -1,14 +1,13 @@
-.header_logo {
-    /* desktop top */
-
-position: absolute;
-width: 1109.89px;
+header {
+    margin: 0 auto;
+    top: 0;
+    position: absolute;
+width: 1110px;
 height: 60px;
 left: 50px;
-top: 0px;
-
 
 }
+
 .header_logo p {
 /* QPICK */
 

@@ -1,24 +1,43 @@
 import { useState } from 'react'
-//import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import styles from './Home.module.css'
 import '../../ui/footer/Footer'
 import Header from '../../ui/header/Header'
 import Footer from '../../ui/footer/Footer'
+import {products} from '../products.data.js'
+import Card from '../../ui/product_card/Card'
+
 
 function Home() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
+    <div className={styles.container}>
     <Header />
-
-      <div className={styles.card}>
-        
-      </div>
+    <div className={styles.content}>
       
-      <Footer />
-    </>
+    <div className={styles.classic}>
+      <p>Наушники</p>
+        {products.length ?products.slice(0, 3).map(product => (
+          <Card key={product.id} product={product}/>
+          ))
+          : <p>Нет товаров</p>
+        }
+        {products.length ?products.slice(0, 3).map(product => (
+          <Card key={product.id} product={product}/>
+          ))
+          : <p>Нет товаров</p>
+        }
+    </div>
+    <div className={styles.wireless}>
+    <p>Беспроводные наушники</p>
+        {products.length ?products.slice(3, 6).map(product => (
+          <Card key={product.id} product={product}/>
+          ))
+          : <p>Нет товаров</p>
+        }
+    </div>
+    
+    </div>
+    <Footer />
+    </div>
   )
 }
 

@@ -2,13 +2,14 @@ header {
     margin: 0 auto;
     top: 0;
     position: absolute;
-width: 1110px;
-height: 60px;
-left: 50px;
+    width: 1110px;
+    height: 60px;
+    left: 50px;
+
 
 }
 
-.header_logo p {
+.header_logo p{
 /* QPICK */
 
 width: 85px;
@@ -28,17 +29,21 @@ float: left;
 flex: none;
 order: 0;
 flex-grow: 0;
-
-
+text-decoration: none;
 }
 
 .header_cart {
     /* Корзина */
+    float:right;
+    margin: auto;
+    padding-top: 25px;
+}
 
-position: absolute;
-left: 89.51%;
-right: -0.27%;
-top: 0%;
-bottom: 0%;
+.fav {
+    padding-right: 35px;
+}
 
+.fav, .cart {
+    background-color: transparent;
+    float: left;
 }

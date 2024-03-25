@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import styles from './Home.module.css'
-import '../../ui/footer/Footer'
 import Header from '../../ui/header/Header'
 import Footer from '../../ui/footer/Footer'
 import {products} from '../products.data.js'

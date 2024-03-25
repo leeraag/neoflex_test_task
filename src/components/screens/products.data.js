@@ -17,7 +17,7 @@ export const products = [
     {
         id: '3',
         img: 'https://s3-alpha-sig.figma.com/img/9a61/d3e6/ebf088b546e3cb83d0fef126b458d80f?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YyE2AQvuGOg~xLH-HkQj~8MT2Cs2IOqXjpwhL2y1hMBT0JnnmhhxMedWDbTVT0H1AbBWaZYrOzVlhucj85S6kSvdWCeTH0giYkDnKlYQgxD9rMHF~wWbwKaJ~clrLJ1RbFR17zWpXuP7PY4LMoRuR0kv9Q9UoWNU3eGaPtyIfftECiY-cGCkjdCSeBIbYBssbV~gdokUdaNIuEThVGeB0KozbdKUqDEdjHcGlb6W8AxXtz8rpoW4pjO0cdvhmUzziHMYCEg0VC3OHyYm7KA0M7L0a7qwe-zNh1x2m4DU1-kXThFVL18~5p1PLDujrsWsm4NO96m3V6C5pODp4VVZ4w__',
-        title: 'Apple EarPods1',
+        title: 'Apple EarPods',
         price: 2327,
         rate: 4.5,
     },

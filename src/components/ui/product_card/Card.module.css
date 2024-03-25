@@ -21,3 +21,83 @@
     width: 100%;
     height: 300px;
 }
+
+.title {
+    /* Apple AirPods */
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 21px;
+/* identical to box height */
+
+color: #1C1C27;
+
+
+}
+
+button {
+    display: block;
+    float: right;
+    /* Купить */
+    padding: 0;
+    width: 85px;
+    height: 25px;
+    border: none;
+    background-color: white;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+text-align: center;
+/* identical to box height */
+
+color: #000000;
+
+}
+
+button:hover {
+    text-decoration: none;
+    color: #FFA542;
+    border-color: transparent;
+}
+
+.price {
+    float: left;
+    /* 9527 ₽ */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 21px;
+/* identical to box height */
+
+color: #FFA542;
+
+
+}
+
+.rate p {
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 25px;
+/* identical to box height */
+
+color: #838383;
+
+
+}
+
+table {
+    margin: auto;
+}
+td {
+    padding-left: 10px;
+}

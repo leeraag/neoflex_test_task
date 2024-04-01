@@ -1,14 +1,31 @@
 import { useState } from 'react'
-import styles from '../home/Home.module.css'
+import styles from './Cart.module.css'
 import Header from '../../ui/header/Header'
 import Footer from '../../ui/footer/Footer'
+import Order from '../../ui/place-order/Order'
+import OrderItem from '../../ui/order-item/OrderItem'
 
-
-function Cart() {
+const Cart = ({cartList, selectedProduct}) => {
+  //console.log(cartList)
   return (
     <div className={styles.container}>
     <Header />
-    <div><h1>Cart</h1></div>
+    <div className={styles.content}>
+        <ul className="cart-list">
+        {/*<Card key={product.id} product={product}/>*/}
+             {cartList.length ? cartList.map((selectedProduct) => {
+              return (
+                <li >
+                  <OrderItem key={selectedProduct.id} selectedProduct={selectedProduct}/>
+                </li>
+              )
+            })
+            : <p>Нет товаров</p> 
+          }
+            </ul>
+        <Order />
+
+    </div>
     <Footer />
     </div>
   )

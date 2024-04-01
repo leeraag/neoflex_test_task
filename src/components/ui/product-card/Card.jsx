@@ -1,6 +1,7 @@
 import styles from './Card.module.css'
-
-const Card = ({product}) => {
+import { useState, useEffect, useCallback } from 'react'
+const Card = ({product, handleProduct}) => {
+  
     return (
         <div key={product.id} className={styles.item}>
           <div 
@@ -28,23 +29,12 @@ const Card = ({product}) => {
                 {product.rate}
                 </p>
               </td>
-              {/*<td><button>Купить</button></td>*/}
-              {/*<td><a href="#">Купить</a></td>*/}
-              <td><button>Купить</button></td>
+              <td ><button onClick={() => handleProduct(product)}>Купить</button></td>
             </tr>
           </tbody>
         </table>
-                
-                
-                {/*<img src={`${product.img}`} alt="" />
-              </div>*/}
-            <div className={styles.info}>
-              
-              
-              
-              
-              
-            </div>
+
+        
         </div>
     )
 }
